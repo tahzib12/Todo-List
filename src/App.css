@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container{
+  max-width: 500px;
+  font-size: 16px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  min-height: 300px;
+  padding-top: 20px;
+  border-radius: 15px;
+  padding:15px;
+}
+.list{
+  text-align: left;
+}
+.list ul{
+  padding-left: 0;
+}
+.list ul li{
+  /* background-color: blueviolet; */
+  color: white;
+  Padding: 5px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.task-item {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.icons {
+  display: flex;
+  gap: 8px; /* Gap between edit and delete icons */
+}
+
+.edit-icon, .dlt-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
